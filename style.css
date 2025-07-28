@@ -1,0 +1,86 @@
+
+*{ /*Seletor para todo*/
+    background-color:pink;
+}
+img{
+    /*Seletor de elemento*/
+    height: 150px;
+    width:200px;
+}
+
+h1,h2,h3{
+    /*Seletor de grupo ou seletor agrupado*/
+    color:black;
+    text-decoration:overline;
+    text-align:center;
+}
+
+p strong{
+    color:chartreuse;
+    font-size:48pt;
+    font-family:'Arial';
+}
+
+p em{
+    color:blueviolet;
+    font-size:28pt;
+    font-family:'Verdana';
+}
+
+p mark{
+    background-color:rgb(248, 179, 248);
+    color:black;
+    
+}
+
+p.teste{
+    color:white;
+    font-size:16pt;
+}
+
+.generica{
+    background-color:black;
+    color:pink;
+    font-size:48pt;
+}
+
+nav a{
+    color:white;
+    font-size: 16pt;
+    padding:20px;
+    border: lightblue double 10px;
+    margin:10px;
+}
+nav  {
+    background-color:rgb(99, 191, 194);
+    padding:50px;
+    border: dashed 1px rgb(231, 16, 167);
+    margin:10px;
+}
+
+header{
+    background-color:rgb(231, 165, 215);
+    padding:50px;
+    border:dotted,rgb(99, 191, 194) 5px;
+    margin: 10px;
+    font-size:36pt ;
+}
+
+#paragrafo{ /*seletor de id*/
+    color:white;
+    font-family: 'Times New Roman';
+    font-size:16pt;
+}
+
+#main{
+    background-color:cornsilk;
+    padding:100px;
+    border:double black 3px;
+    margin:10px;
+}
+
+footer{
+    padding:50px 100px 25px ;
+    background-color: rgb(231, 165, 215);
+
+}
